@@ -11,7 +11,7 @@ pipeline {
         stage('List Directory Contents') {
             steps {
                 // Execute the PowerShell script
-                powershell './list_directory.ps1"'
+                powershell './list_directory.ps1'
             }
         }
     }
