@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
     
@@ -13,7 +12,8 @@ pipeline {
 	stage('Clone PowerShell Script Repo') {
             steps {
                 // Clone the repository containing the PowerShell script
-                git 'https://github.com/Nourhan-Ziada/GoCartWorldE-CommerceSystem.git'
+                git url: 'https://github.com/Nourhan-Ziada/GoCartWorldE-CommerceSystem.git', branch: 'main'
+            
                 
             }
         }
