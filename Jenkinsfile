@@ -15,7 +15,7 @@ pipeline {
         stage('List Directory Contents') {
             steps {
                 // Execute the PowerShell script
-                bat ' call GoCartWorldE-CommerceSystem\\list_files.bat'
+                bat 'list_files.bat'
             }
         }
     }
